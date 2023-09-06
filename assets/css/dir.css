@@ -1,0 +1,34 @@
+.path {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    top: 0;
+}
+
+.path ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex; 
+}
+
+.path ul li {
+    margin-right: 0; 
+    padding: 0;
+}
+
+.path ul li a {
+    display: block;
+    color: #000;
+    padding: 0 10px;
+    line-height: 40px;
+    border-right: 1px solid #7a7a52;
+}
+
+.path ul li:last-child a {
+    border-right: none;
+}
+
+.path ul li a:hover {
+    background-color: #ccccb3;
+}

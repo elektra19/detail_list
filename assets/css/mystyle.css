@@ -1,0 +1,400 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: zawgyi-one,"Tajawal", sans-serif;
+/*cursor: default;*/
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
+margin-top: 0;
+letter-spacing: 2px;
+}
+
+.custom-dropdown-item{
+color: white;
+}
+
+.custom-dropdown-item:hover,
+.custom-dropdown-item:focus {
+font-weight: 550;
+border-bottom: 2px solid #77d02f;
+transform-style: flat;
+color: #000;
+background-color: #999999;
+text-shadow: 1px 1px 3px #000;
+}
+
+.dropdown-menu{
+    background-color: #262626;
+}
+
+
+
+
+@font-face {
+font-family: zawgyi-one;
+src: url(../fonts/Zawgyi-One.ttf);
+}
+
+.login_btn {
+border: 2px solid #77d02f;
+color: #77d02f;
+font-weight: 500;
+letter-spacing: 2px;
+
+}
+
+.login_btn:hover {
+background-color: #77d02f;
+color: #fff;
+}
+
+.register_btn {
+border: 2px solid #77d02f;
+color: #77d02f;
+font-weight: 500;
+letter-spacing: 2px;
+
+}
+
+.register_btn:hover {
+background-color: #77d02f;
+color: #fff;
+}
+
+/*package start*/
+
+.package p {
+font-family: Cambria;
+text-align: justify;
+}
+
+.package_title {
+font-size: 1.6em;
+font-weight: 600;
+}
+
+.price {
+font-size: 1.2em;
+}
+
+.pk_btn{
+color: #5c9f24;
+font-weight: 500;
+/*background-color: #77d02f;*/
+border: 2px solid #5c9f24;
+}
+
+.pk_btn:hover,
+.pk_btn:focus {
+color: #fff;
+font-weight: 500;
+background-color: #5c9f24;
+border: 2px solid #5c9f24;
+}
+
+.pk_btn_buy{
+font-weight: 500;
+background-color: #5c9f24;
+border: 2px solid #487d1c;
+text-shadow: 1px 1px 2px #000;
+}
+
+.pk_btn_buy:hover,
+.pk_btn_buy:focus {
+color: #fff;
+font-weight: 500;
+background-color: #6cbb2a;
+border: 2px solid #487d1c;
+}
+/*package end*/
+
+.mmst {
+font-family: "El Messiri";
+font-weight: bold;
+/* font-family: 'Tangerine', cursive; */
+color: #33cc33;
+text-shadow: 2px 2px 3px #145214;
+}
+
+.mmstp {
+color: #fff;
+text-shadow: 1px 1px 2px #000;
+}
+
+.nav-link {
+color: #d9d9d9;
+border-bottom: 2px solid transparent;
+font-size: 1.1em;
+letter-spacing: 2px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show,
+.nav-link:hover,
+.nav-link:focus {
+border-bottom: 2px solid #77d02f;
+transform-style: flat;
+color: #77d02f;
+}
+
+
+
+.navbar-brand {
+font-size: 2.2em;
+font-weight: 600;
+font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.mycontent p {
+font-family: "Zawgyi A Lan 5";
+}
+
+/* firmware_download_start */
+.p-head {
+font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+font-weight: 700;
+text-shadow: 1px 1px 4px whitesmoke;
+}
+
+.p-head-bg {
+background-color: #487d1c;
+}
+
+/* firmware_download_end */
+
+#down_btn {
+background: #6cbb2a;
+font-weight: 800;
+letter-spacing: 3px;
+}
+
+#down_btn:hover {
+background: #77d02f;
+border: 1px solid gray;
+color: whitesmoke;
+box-shadow: 2px 3px #3c6818;
+}
+
+
+.main_card {
+border-top: 1px solid #5c9f24;
+}
+
+h4 {
+color: #305313;
+/*font-weight: 800;*/
+}
+
+/*box list start*/
+.siderbar ul {
+left: 0;
+right: 0;
+padding: 20px;
+}
+
+.siderbar ul li {
+list-style: none;
+background-color: #5c9f24;
+color: #fff;
+}
+
+.siderbar ul li a {
+background-color: #f1faea;
+margin-top: 1px;
+line-height: 40px;
+display: block;
+text-decoration: none;
+padding-left: 20px;
+color: #000;
+font-weight: 600;
+letter-spacing: 1px;
+font-size: 1.1em;
+color: #549121;
+}
+
+.siderbar ul li a:hover {
+background: #6cbb2a;
+color: white;
+cursor: grab;
+padding-left: 50px;
+}
+
+.tool_area {
+border-bottom: 1px solid #a19f9f;
+}
+
+.tool_area:hover {
+box-shadow: 1px 1px 4px gray;
+cursor: pointer;
+}
+
+.box_header {
+font-weight: 600;
+font-size: 1.5em;
+color: #3a3a3a;
+cursor: grab;
+}
+
+.tool_header {
+font-weight: 700;
+font-family: Cambria;
+color: #5c9f24;
+letter-spacing: 2px;
+text-shadow: 1px 1px 2px #487d1c;
+}
+
+.content a {
+text-decoration: none;
+color: #000;
+}
+
+/*box list end*/
+
+/*tools download start*/
+.box_img:hover {
+transform: scale(1.1);
+}
+
+/*tools download end*/
+
+/*footer start*/
+
+.footer span,
+a {
+text-decoration: none;
+color: #fff;
+display: block;
+line-height: 40px;
+}
+
+.footer_copy {
+background-color: #6cbb2a;
+font-weight: 600;
+color: black;
+}
+
+/*team start*/
+.team_area,
+.team {
+background-color: #6cbb2a;
+}
+
+.team_name {
+font-weight: 600;
+font-size: 1.3em;
+font-family: "Tajawal", sans-serif;
+}
+
+.team_img2 {
+background-color: #6cbb2a;
+border-bottom-left-radius: 30px;
+}
+
+.team_img2 img {
+opacity: 60%;
+}
+
+.team_img2 img:hover {
+opacity: 100%;
+transform: scale(1.1);
+transition: transform 0.5s ease;
+}
+
+.team_detail {
+background-color: #fff;
+color: #5c9f24;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+}
+
+/*footer start*/
+.address {
+font-size: 1.1em;
+}
+
+.address a:hover,
+.address a:focus {
+color: #00ff00;
+/* text-shadow: 1px 1px 2px #6cbb2a; */
+}
+
+.social_link a {
+cursor: pointer;
+font-size: 1.1em;
+}
+
+#facebook:hover,
+#facebook:focus {
+border: 1px solid #0066cc;
+font-weight: 600;
+color: #0066cc;
+transform: scale(1.1);
+transition: transform 0.3s ease;
+}
+
+#twitter:hover,
+#twitter:focus {
+border: 1px solid #3399ff;
+font-weight: 600;
+color: #3399ff;
+transform: scale(1.1);
+transition: transform 0.3s ease;
+}
+
+#youtube:hover,
+#youtube:focus {
+border: 1px solid #ff0000;
+font-weight: 600;
+color: #ff0000;
+transform: scale(1.1);
+transition: transform 0.3s ease;
+}
+
+/* model list start */
+.models_header {
+font-size: 1.2em;
+font-weight: 600;
+}
+
+.models_body:hover td {
+background-color: whitesmoke;
+}
+
+.modeldown {
+border: 2px solid #5c9f24;
+font-weight: 600;
+letter-spacing: 2px;
+}
+
+.modeldown:hover {
+border: 2px solid #5c9f24;
+background-color: #5c9f24;
+color: whitesmoke;
+text-shadow: 2px 2px 3px #000;
+font-weight: 600;
+letter-spacing: 2px;
+box-shadow: 2px 3px #3c6818;
+}
+
+.pagination li a {
+line-height: 20px;
+}
+
+.models h5 {
+font-weight: 600;
+}
+
+.models:hover h5 {
+/* text-shadow: 1px 2px 2px #006600; */
+font-size: 1.3em;
+cursor: pointer;
+transform: scale(1.1);
+transition: transform 0.2s ease;
+font-weight: 600;
+color: #009900;
+}
+
+/* service */
